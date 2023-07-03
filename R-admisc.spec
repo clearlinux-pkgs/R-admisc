@@ -4,10 +4,10 @@
 # Using build pattern: R
 #
 Name     : R-admisc
-Version  : 0.32
-Release  : 19
-URL      : https://cran.r-project.org/src/contrib/admisc_0.32.tar.gz
-Source0  : https://cran.r-project.org/src/contrib/admisc_0.32.tar.gz
+Version  : 0.33
+Release  : 20
+URL      : https://cran.r-project.org/src/contrib/admisc_0.33.tar.gz
+Source0  : https://cran.r-project.org/src/contrib/admisc_0.33.tar.gz
 Summary  : Adrian Dusa's Miscellaneous
 Group    : Development/Tools
 License  : GPL-3.0
@@ -21,7 +21,7 @@ Interprets and translates, factorizes and negates SOP - Sum of Products
     perform various other checks if possibly numeric (even if all numbers reside
     in a character vector) and coerce to numeric, or check if the numbers are
     whole. It also offers, among many others, a highly versatile recoding
-    routine and some more flexible alternatives to the base function 'with()'
+    routine and some more flexible alternatives to the base functions 'with()'
     and 'within()'.
     SOP simplification functions in this package use related minimization from
     package 'QCA', which is recommended to be installed despite not being listed
@@ -46,10 +46,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684250558
+export SOURCE_DATE_EPOCH=1688413508
 
 %install
-export SOURCE_DATE_EPOCH=1684250558
+export SOURCE_DATE_EPOCH=1688413508
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
