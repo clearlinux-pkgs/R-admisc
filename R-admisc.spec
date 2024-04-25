@@ -7,7 +7,7 @@
 #
 Name     : R-admisc
 Version  : 0.35
-Release  : 23
+Release  : 24
 URL      : https://cran.r-project.org/src/contrib/admisc_0.35.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/admisc_0.35.tar.gz
 Summary  : Adrian Dusa's Miscellaneous
